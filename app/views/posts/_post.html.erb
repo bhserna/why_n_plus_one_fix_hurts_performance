@@ -1,0 +1,8 @@
+<div class="post">
+  <h1><%= post.title %></h1>
+  <p>💬 <%= number_with_delimiter post.comments.size %>
+
+  <div class="comment">
+    <p><strong>Latest comment:</strong> <%= post.comments.last.body %></p>
+  </div>
+</div>

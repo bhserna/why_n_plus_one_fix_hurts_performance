@@ -1,0 +1,12 @@
+<div class="grid">
+  <main>
+    <h1>Posts</h1>
+    <%= render "filters" %>
+    <%= render @posts %>
+  </main>
+  <aside>
+    <%= turbo_frame_tag "logs", src: logs_path do %>
+      <pre class="logs"></pre>
+    <% end %>
+  </aside>
+</div>

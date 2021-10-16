@@ -1,0 +1,15 @@
+<div data-controller="auto-submit">
+  <%= form_tag posts_path, method: :get do %>
+    <p>
+      <%= label "filter", "Show posts with this number of comments:" %>
+      <%= select_tag "filter", options_for_select(filter_options, current_filter), data: { action: "auto-submit#submit" } %>
+    </p>
+
+    <p>
+      <%= label "filter", "Fix n+1 queries?:" %>
+      <%= check_box_tag "fix_n_plus_one_queries", "1", fix_n_plus_one_queries?, data: { action: "auto-submit#submit" } %>
+    </p>
+
+    <%= submit_tag "Apply", class: "hide", data: { "auto-submit-target" => "button" }  %>
+  <% end %>
+</div>
