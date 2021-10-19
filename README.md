@@ -16,7 +16,10 @@ checkbox.
 It will let you compare request times combining a filter of posts by number of
 comments and the checkbox to "fix" the n+1 queries problem.
 
-<div style="position: relative; padding-bottom: 60.70826306913997%; height: 0;"><iframe src="https://www.loom.com/embed/6405c42e78d74ef29277a2930e2b3834" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/6405c42e78d74ef29277a2930e2b3834">
+<p>Google Chrome - WhyNPlusOneFixHurtsPerformance - Watch Video</p>
+<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6405c42e78d74ef29277a2930e2b3834-with-play.gif">
+</a>
 
 You can read more on: http://bhserna/fixing-n-plus-one-queries-can-hurt-performance-example-app.html
 
