@@ -1,7 +1,7 @@
 # Example app to understand why some times fixing some n+1 queries can hurt performance
 
-I want to share with you an example application to help you visualize [why
-"fixing" an n+1 queries problem, can hurt the performance of your
+This is an example application to help you visualize [why "fixing" an n+1
+queries problem, can hurt the performance of your
 application](2021-10-08-fixing-n-plus-1-queries-can-hurt-performance.html) if
 you preload assocations with too many records.
 
