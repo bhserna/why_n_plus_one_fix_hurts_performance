@@ -30,6 +30,30 @@ ruby-3.0.0
 
 # Database creation and initialization
 
+To use the app effectively you need to run the seeds.rb because it will create the 
+posts that you need to test the app.
+
+```ruby
+seeds = Seeds.new
+seeds.create_posts 20, comments_count: 5
+seeds.create_posts 20, comments_count: 10
+seeds.create_posts 20, comments_count: 50
+seeds.create_posts 20, comments_count: 100
+seeds.create_posts 20, comments_count: 1000
+seeds.create_posts 20, comments_count: 10000
 ```
-.bin/rails db:setup
+
+You can update that file to test other combinations.
+
+To create and initializa the database for the first time you can use:
+
+```
+./bin/rails db:setup
+```
+
+If you want to reset the database and run new seeds, you can use:
+
+
+```
+./bin/rails db:reset
 ```
